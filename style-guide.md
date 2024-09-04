@@ -13,7 +13,7 @@ The designs were created to the following widths:
 
 ### Theme 1
 
-#### Backgrounds
+#### Backgrounds 
 
 - Very dark desaturated blue (main background): hsl(222, 26%, 31%)
 - Very dark desaturated blue (toggle background, keypad background): hsl(223, 31%, 20%)

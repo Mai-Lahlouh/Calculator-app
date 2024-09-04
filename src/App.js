@@ -1,17 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Calculator from "./component/calculator/calculator.jsx";
 
 function App() {
   return (
     <div className="App">
-      <header>{/*Theme */}
-
-      </header>
-      <main>
-        
-        <section>{/*Result screen */}</section>
-        <section>{/*calculator buttons */}</section>
-      </main>
+      <Calculator/>
     </div>
   );
 }
