@@ -9,7 +9,7 @@
   gap: 22px;
 }
 .theme p,
-span {
+.thm-num > span {
   font-size: 10px;
   font-weight: 500;
 }
@@ -59,4 +59,27 @@ span {
 
 .slider[data-theme="third"]::-webkit-slider-thumb {
   background-color: var(--switch-color); 
+}
+.result-screen{
+  background: var(--screen-background);
+  text-align: end;
+  margin: 20px 0 20px;
+  border-radius: 5px;
+  height: 90px;
+}
+.result-screen > span{
+  display: inline-block;
+  margin: 1.1em 25px;
+}
+.calc-body{
+  height: 79%;
+  background: var(--toggle-background);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.ro-1,.ro-2,.ro-3,.ro-4,.ro-5{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
 }

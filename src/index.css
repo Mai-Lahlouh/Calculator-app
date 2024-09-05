@@ -1,58 +1,58 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-[data-theme = "first"]{
-  --body-background : hsl(222, 26%, 31%);
+[data-theme="first"] {
+  --body-background: hsl(222, 26%, 31%);
   --body-color: hsl(0, 0%, 100%);
-  --switch-color : hsl(6, 63%, 50%);
-  --toggle-background : hsl(223, 31%, 20%);
-  --del-btn-background : hsl(225, 21%, 49%);
-  --del-btn-shadow : hsl(224, 28%, 35%);
+  --switch-color: hsl(6, 63%, 50%);
+  --toggle-background: hsl(223, 31%, 20%);
+  --screen-background: hsl(224, 36%, 15%);
+  --del-btn-background: hsl(225, 21%, 49%);
+  --del-btn-shadow: hsl(224, 28%, 35%);
   --equal-btn-background: hsl(6, 63%, 50%);
   --equal-btn-shadow: hsl(6, 70%, 34%);
   --btn-background: hsl(30, 25%, 89%);
-  --btn-shadow : hsl(28, 16%, 65%);
+  --btn-shadow: hsl(28, 16%, 65%);
   --btn-color: hsl(221, 14%, 31%);
+  --opp-color: hsl(0, 0%, 100%);
 }
-[data-theme = "second"]{
-  --body-background : hsl(0, 0%, 90%);
-  --body-color: hsl(60, 10%, 19%);/* body and buttons color*/
-  --switch-color : hsl(25, 98%, 40%);
-  --toggle-background : hsl(0, 5%, 81%); /* for body numbers and toggle switch background*/
-  --del-btn-background : hsl(185, 42%, 37%);
-  --del-btn-shadow : hsl(185, 58%, 25%);
+[data-theme="second"] {
+  --body-background: hsl(0, 0%, 90%);
+  --screen-background: hsl(0, 0%, 93%);
+  --body-color: hsl(60, 10%, 19%); /* body and buttons color*/
+  --switch-color: hsl(25, 98%, 40%);
+  --toggle-background: hsl(0,5%,81%); /* for body numbers and toggle switch background*/
+  --del-btn-background: hsl(185, 42%, 37%);
+  --del-btn-shadow: hsl(185, 58%, 25%);
   --equal-btn-background: hsl(25, 98%, 40%);
   --equal-btn-shadow: hsl(25, 99%, 27%);
   --btn-background: hsl(45, 7%, 89%);
-  --btn-shadow : hsl(35, 11%, 61%);
-  --btn-color: hsl(0, 0%, 100%); /* this for del button, rest btn and equal button*/
-  
+  --btn-shadow: hsl(35, 11%, 61%);
+  --btn-color: hsl(60,10%,19%); /* this for del button, rest btn and equal button*/
+  --opp-color: hsl(0, 0%, 100%);
 }
-[data-theme = "third"]{
-  --body-background :  hsl(268, 75%, 9%);
+[data-theme="third"] {
+  --body-background: hsl(268, 75%, 9%);
   --body-color: hsl(52, 100%, 62%);
-  --switch-color : hsl(176, 100%, 44%);
-  --toggle-background : hsl(268, 71%, 12%);
-
-  --del-btn-background : hsl(281, 89%, 26%);/* for delete and rest buttons */
-  --del-btn-shadow : hsl(285, 91%, 52%);
+  --switch-color: hsl(176, 100%, 44%);
+  --toggle-background: hsl(268, 71%, 12%);
+  --screen-background: hsl(268, 71%, 12%);
+  --del-btn-background: hsl(281, 89%, 26%); /* for delete and rest buttons */
+  --del-btn-shadow: hsl(285, 91%, 52%);
   --equal-btn-background: hsl(176, 100%, 44%);
   --equal-btn-shadow: hsl(177, 92%, 70%);
   --btn-background: hsl(268, 47%, 21%);
-  --btn-shadow : hsl(290, 70%, 36%);
+  --btn-shadow: hsl(290, 70%, 36%);
   --btn-color2: hsl(198, 20%, 13%);
   --btn-color3: hsl(0, 0%, 100%);
-
+  --opp-color: hsl(0, 0%, 100%);
 }
 body {
   width: 100vw;
   height: 100vh;
   background: var(--body-background);
-  font-size: 32px;
-  font-family: "League Spartan";
-  font-weight: 700;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,4 +61,9 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+body * {
+  font-size: 32px;
+  font-family: "League Spartan";
+  font-weight: 700;
 }

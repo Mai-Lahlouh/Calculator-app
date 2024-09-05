@@ -1,0 +1,27 @@
+.btn,
+.del-btn {
+  width: 90px;
+  height: 50px;
+  background: var(--btn-background);
+  border-radius: 5px;
+  color: var(--btn-color);
+  padding-top: 0.5rem;
+  border: none;
+  box-shadow: 0px 3px var(--btn-shadow);
+}
+.del-btn {
+  background: var(--del-btn-background);
+  color: var(--opp-color);
+  font-size: x-large;
+  box-shadow: 0px 3px var(--del-btn-shadow);
+}
+.op-btn {
+  width: 42%;
+  border: none;
+  height: 50px;
+  color: var(--opp-color);
+}
+.equal-btn {
+  background: var(--equal-btn-background);
+  box-shadow: 0px 3px var(--equal-btn-shadow);
+}
