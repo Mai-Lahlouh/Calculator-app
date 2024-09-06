@@ -9,6 +9,10 @@
   border: none;
   box-shadow: 0px 3px var(--btn-shadow);
 }
+.btn:hover{
+  background: var(--numbers-hover-color);
+  cursor: pointer;
+}
 .del-btn {
   background: var(--del-btn-background);
   color: var(--opp-color);
@@ -24,4 +28,12 @@
 .equal-btn {
   background: var(--equal-btn-background);
   box-shadow: 0px 3px var(--equal-btn-shadow);
+}
+.equal-btn:hover{
+  background: var(--equal-hover-color); 
+  cursor: pointer;
+}
+.del-btn:hover{
+  cursor: pointer;
+  background: var(--delAndReset-hover-color); 
 }

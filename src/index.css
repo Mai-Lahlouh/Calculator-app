@@ -17,6 +17,9 @@
   --btn-shadow: hsl(28, 16%, 65%);
   --btn-color: hsl(221, 14%, 31%);
   --opp-color: hsl(0, 0%, 100%);
+  --numbers-hover-color:  hsl(0, 0%, 100%);
+  --delAndReset-hover-color: hsl(226, 39%, 71%);
+  --equal-hover-color:hsl(6, 59%, 58%);
 }
 [data-theme="second"] {
   --body-background: hsl(0, 0%, 90%);
@@ -32,6 +35,9 @@
   --btn-shadow: hsl(35, 11%, 61%);
   --btn-color: hsl(60,10%,19%); /* this for del button, rest btn and equal button*/
   --opp-color: hsl(0, 0%, 100%);
+  --numbers-hover-color:  hsl(0, 0%, 100%);
+  --delAndReset-hover-color: hsl(185, 48%, 63%);
+  --equal-hover-color:hsl(25, 77%, 55%);
 }
 [data-theme="third"] {
   --body-background: hsl(268, 75%, 9%);
@@ -48,6 +54,9 @@
   --btn-color2: hsl(198, 20%, 13%);
   --btn-color3: hsl(0, 0%, 100%);
   --opp-color: hsl(0, 0%, 100%);
+  --numbers-hover-color:   hsl(269, 53%, 42%);
+  --delAndReset-hover-color: hsl(290, 48%, 40%);
+  --equal-hover-color:hsl(177, 92%, 70%);
 }
 body {
   width: 100vw;
