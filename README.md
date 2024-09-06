@@ -27,6 +27,8 @@ This project is a responsive calculator web application that allows users to per
 - **Scrolling:** If the result or input exceeds the screen width, you can scroll horizontally to view it.
 - **Reset or Delete:** Use the RESET button to clear all input, or the DEL button to delete the last character.
 
+## Contact
+For any inquiries or feedback, please reach out to me at [Email](mailto:nlahlouh09@gmail.com).
   
 ## Author
 Mai Lahlouh - 6th Sep, 2024
