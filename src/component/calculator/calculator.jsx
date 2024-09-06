@@ -100,11 +100,9 @@ export default function Calculator() {
       </header>
       <main>
         <section className="result-screen">
-          {/*Result screen */}
           <span>{result}</span>
         </section>
         <section className="calc-body">
-          {/*calculator buttons */}
           <div className="ro-1">
             {items[0]}
             {items[1]}

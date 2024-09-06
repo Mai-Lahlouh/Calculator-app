@@ -35,7 +35,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .slider {
   -webkit-appearance: none;
   width: 42px;
@@ -52,11 +51,9 @@
 .slider::-webkit-slider-thumb {
   background-color: var(--switch-color);
 }
-
 .slider[data-theme="second"]::-webkit-slider-thumb {
   background-color: var(--switch-color); 
 }
-
 .slider[data-theme="third"]::-webkit-slider-thumb {
   background-color: var(--switch-color); 
 }
@@ -77,7 +74,9 @@
   margin: 1.1em 25px;
 }
 .calc-body{
-  height: 79%;
+  display: flex;
+  flex-direction: column;
+  height: 370px;
   background: var(--toggle-background);
   border-radius: 5px;
   margin-top: 10px;
