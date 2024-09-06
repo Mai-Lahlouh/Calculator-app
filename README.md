@@ -8,10 +8,9 @@ This project is a responsive calculator web application that allows users to per
 
 - **Basic Arithmetic Operations:** Supports addition, subtraction, multiplication, and division.
 - **Decimal Handling:** Allows decimal inputs and prevents invalid multiple decimal points within the same number.
-- **Responsive Design:** Optimized for various screen sizes.
 - **Theme Switcher:** Users can switch between different themes.
 - **Scrollable Display:** If the input exceeds the screen width, it becomes scrollable horizontally.
-- **Error Handling:** Displays `ERROR` for invalid operations and `OVERFLOW` if the result is too large.
+- **Error Handling:** Displays `ERROR` for invalid operations.
 - **Reset and Delete Functions:** Users can reset the entire input or delete the last character.
 
 ## Technologies Used
