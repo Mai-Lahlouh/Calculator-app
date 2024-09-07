@@ -34,6 +34,11 @@ Here is a screenshot of the calculator design:
 ![Calculator Design theme-2](./design/desktop-design-theme-2.jpg)
 ![Calculator Design theme-3](./design/desktop-design-theme-3.jpg)
 
+## Deployment
+
+The project has been deployed and can be accessed at the following link:
+
+- **Live Demo**: [https://calc-mai.netlify.app/](https://calc-mai.netlify.app/)
 
 ## Contact
 For any inquiries or feedback, please reach out to me at [Email](mailto:nlahlouh09@gmail.com).
